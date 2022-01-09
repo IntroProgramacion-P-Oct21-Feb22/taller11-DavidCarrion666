@@ -13,11 +13,13 @@ public class Ejemplo041 {
 
     public static void main(String[] args) {
         // 
+        int primerValor = 1;
+        int segundoValor = 2;
         obtenerMultiplicacion(primerValor, segundoValor); 
         
     }
         
-    public static void obtenerSuma(int a, int b){
+    public static void obtenerMultiplicacion(int a, int b){
         int suma;
         suma = a + b;
         System.out.printf("El valor de la suma es: %d\n", suma);
